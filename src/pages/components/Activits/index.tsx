@@ -1,5 +1,5 @@
-import { desktop, systems, mobile_app } from '@/assets'
-import ActivitiCard from '../ActivitiCard'
+import activitCards from '@/mocks/activit-cards'
+import ActivitiCard from './ActivitiCard'
 import * as S from './styles'
 
 const Activits: React.FC = () => {
@@ -10,21 +10,14 @@ const Activits: React.FC = () => {
           <S.Title>Atividades</S.Title>
         </div>
         <S.Row className="mb-3">
-          <ActivitiCard
-            icon={desktop}
-            title='Sites'
-            description='Criação de web sites, focado principalmente no design responsivo.'
-          />
-          <ActivitiCard
-            icon={systems}
-            title='Sistemas'
-            description='Desenvolvimento de sistemas, visando a satisfação do gosto go cliente.'
-          />
-          <ActivitiCard
-            icon={mobile_app}
-            title='Aplicativos'
-            description='Contrução de aplicativos hibridos, priorizando sempre a experiência do usuário.'
-          />
+          {activitCards.map(({ description, icon, title }, index) => (
+            <ActivitiCard
+              key={index}
+              icon={icon}
+              title={title}
+              description={description}
+            />
+          ))}
         </S.Row>
       </S.Container>
     </S.Main>
