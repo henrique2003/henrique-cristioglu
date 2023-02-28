@@ -29,5 +29,5 @@ export const Title = styled.h3`
   letter-spacing: 1px;
   font-family: ${({ theme }) => theme.FONTS.MONTSERRAT}; 
   color: ${({ theme }) => theme.COLORS.WHITE}; 
-  font-weight: 600;
+  font-weight: 500;
 `

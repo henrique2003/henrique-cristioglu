@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Activits, Introduction } from './components'
+import { AboutMe, Activits, Introduction, Projects } from './components'
 
 export default function Home(): JSX.Element {
   return (
@@ -11,6 +11,8 @@ export default function Home(): JSX.Element {
       <main>
         <Introduction />
         <Activits />
+        <AboutMe />
+        <Projects />
       </main>
     </>
   )

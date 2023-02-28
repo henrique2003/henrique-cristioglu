@@ -16,14 +16,12 @@ export const Content = styled.div``
 export const Name = styled.h2`
   color: ${({ theme }) => theme.COLORS.PRIMARY};
   font-family: ${({ theme }) => theme.FONTS.MONTSERRAT};
-  letter-spacing: 1px;
   font-size: 35px;
-  font-weight: 600;
 `
 
 export const Description = styled.h3`
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
   color: ${({ theme }) => theme.COLORS.GREY};
   font-family: ${({ theme }) => theme.FONTS.POPPINS};
   margin-top: 0px;

@@ -19,8 +19,8 @@ import mongo from './images/icons/mongo.png'
 import sass from './images/icons/sass.png'
 import systems from './images/icons/systems.png'
 import site from './images/icons/site.png'
-import styled_components from './images/icons/styled-component.png'
-import ts from './images/icons/ts.png'
+import styled_components from './images/icons/styled-components.png'
+import typescript from './images/icons/typescript.png'
 
 export {
   dev,
@@ -36,7 +36,7 @@ export {
   systems,
   site,
   styled_components,
-  ts,
+  typescript,
   indecision_app,
   pokeapi,
   sporgenda

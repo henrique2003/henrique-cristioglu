@@ -1,11 +1,21 @@
 import Image from 'next/image'
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import { IoIosArrowDown } from 'react-icons/io'
+import { Poppins, Montserrat, Open_Sans } from '@next/font/google'
 
 import { dev } from '@/assets'
 import * as S from './styles'
 import themes from '@/themes'
 import Link from 'next/link'
+
+const montserrat = Montserrat({ subsets: ['latin'] })
+
+const opensans = Open_Sans({ subsets: ['latin'] })
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: '400'
+})
 
 const Introduction: React.FC = () => {
   return (
@@ -13,21 +23,23 @@ const Introduction: React.FC = () => {
       <S.Row className="row mt-3 px-3 px-sm-0">
         <S.Col className="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-sm-2 order-md-2 order-lg-1">
           <S.Content className="text mt-lg-5 pt-lg-5">
-            <S.Name>Henrique de Melo Cristioglu</S.Name>
-            <S.Description className="mt-3">
+            <S.Name className={montserrat.className}>Henrique de Melo Cristioglu</S.Name>
+            <S.Description className={poppins.className + 'mt-3'}>
               Dev Front-end ReactJs | Back-end NodeJs | Mobile React Nativec
             </S.Description>
-            <S.Education className="mt-1">Cursando Sistema de informação.</S.Education>
+            <S.Education className={opensans.className + 'mt-1'}>Cursando Sistema de informação.</S.Education>
             <div className="mt-3">
               <S.ProfessionalLink
                 href="https://github.com/henrique2003"
                 target="_blank"
+                className={opensans.className}
               >
                 <FaGithubSquare color='rgb(44, 44, 44)' size={35} />
               </S.ProfessionalLink>
               <S.ProfessionalLink
                 href="https://www.linkedin.com/in/henrique-cristioglu-a2b2b2194/"
                 target="_blank"
+                className={opensans.className}
               >
                 <FaLinkedin color='rgb(44, 44, 44)' size={35} />
               </S.ProfessionalLink>
