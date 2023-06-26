@@ -25,7 +25,7 @@ const Introduction: React.FC = () => {
           <S.Content className="text mt-lg-5 pt-lg-5">
             <S.Name className={montserrat.className}>Henrique de Melo Cristioglu</S.Name>
             <S.Description className={poppins.className + 'mt-3'}>
-              Dev Front-end ReactJs | Back-end NodeJs | Mobile React Nativec
+              Dev Front-end ReactJs | Back-end NodeJs | Mobile React Native
             </S.Description>
             <S.Education className={opensans.className + 'mt-1'}>Cursando Sistema de informação.</S.Education>
             <div className="mt-3">
