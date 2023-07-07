@@ -7,7 +7,7 @@ export default [
     links: {
       github: 'https://henrique-cristioglu.vercel.app'
     },
-    techs: ['react-natice', 'styled-components', 'typescript', 'nodejs', 'mongodb'],
+    techs: ['react-native', 'styled-components', 'typescript', 'nodejs', 'mongodb'],
     title: 'Sign-Mundi',
     color: '#303030'
   },
