@@ -5,6 +5,7 @@ import henrique from './images/henrique.jpg'
 import clone_nubank from './images/projects/clone-nubank.png'
 import get_fruits from './images/projects/get-fruits.png'
 import squid_funkos from './images/projects/squid-funkos.png'
+import sign_mundi from './images/projects/sign-mundi.png'
 
 // Gifs
 import indecision_app from './images/gifs/indecision-app.gif'
@@ -39,5 +40,6 @@ export {
   typescript,
   indecision_app,
   pokeapi,
-  sporgenda
+  sporgenda,
+  sign_mundi
 }

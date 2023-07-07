@@ -1,6 +1,16 @@
-import { clone_nubank, get_fruits, indecision_app, pokeapi, sporgenda, squid_funkos } from '@/assets'
+import { clone_nubank, get_fruits, indecision_app, pokeapi, sporgenda, squid_funkos, sign_mundi } from '@/assets'
 
 export default [
+  {
+    image: sign_mundi,
+    description: 'O Sign Mundi é um app que mostra a o nome dos paises em imagens que representam sua escrita em libras. Também contém uma área admin para cadastrar, editar e apagar um pais de acordo com sua geolocalização.',
+    links: {
+      github: 'https://henrique-cristioglu.vercel.app'
+    },
+    techs: ['react-natice', 'styled-components', 'typescript', 'nodejs', 'mongodb'],
+    title: 'Sign-Mundi',
+    color: '#303030'
+  },
   {
     image: get_fruits,
     description: 'O Get fruits é um app para fazer pedido de salada de frutas online. Esta aplicação contem telas de boas vindas, outra com o mercado para escolher a suas saladas de frutas e um carrinho para finalizar o seu pedido junto com uma tela de sucesso no final.',
