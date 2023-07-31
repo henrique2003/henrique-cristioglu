@@ -45,7 +45,7 @@ export default [
     image: sporgenda,
     description: 'Nesta aplicação você escolhe um horário na agenda onde você pode ir ao local mostrado e praticar a atividade física desejada conhecendo outras pessoas. Garantindo sua vaga somente com o seu nome.',
     links: {
-      github: 'https://github.com/henrique2003/Squid-funkos'
+      github: 'https://github.com/henrique2003/Sporgenda'
     },
     techs: ['react', 'styled-components', 'css', 'typescript', 'nodejs', 'mongodb'],
     title: 'Sporgenda',
